@@ -1,0 +1,18 @@
+.sketch-container {
+    display: flex;
+    justify-content: flex-start;
+    align-content: center;
+    flex-wrap: wrap;
+}
+
+.grid {
+    height: 16px;
+    width: 16px;
+    background-color: white;
+    border: 0.5px solid black;
+    border-color: black;
+}
+
+.grid:hover {
+    background-color: gray;
+}
